@@ -16,7 +16,7 @@ This python code brute forces the missing bits for AES key (in hexadecimal forma
 * Install OpenSSL (Version : *OpenSSL 1.1.1i  8 Dec 2020*) for Windows from:
     https://curl.se/windows/dl-7.76.1/openssl-1.1.1k-win64-mingw.zip
  
-* In the code, enter the key under the variable 's'. Under cmd variable enter the .aes file to be decrypted.
+* Modefy the code **keygen.py**, by entering your missing key bits under the `s` variable and under `cmd` variable enter the .aes file to be decrypted.
  
 * See to that the .aes file is in same location as that of keygen.py file.
  
